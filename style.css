@@ -1,0 +1,27 @@
+*{
+    background-color: dodgerblue;
+   box-sizing: border-box; 
+}
+.bosh{
+   margin: 0;
+   background-color: fuchsia;
+   padding: 100px;
+}
+button{
+  margin: 1px;
+  padding: 5px;
+}
+.tana{
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   border: 1px;
+
+
+
+}
+.tanach{
+   display: inline-block;
+
+
+}
