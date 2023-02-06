@@ -1,27 +1,29 @@
-*{
-    background-color: dodgerblue;
-   box-sizing: border-box; 
-}
+
 .bosh{
-   margin: 0;
+   
    background-color: fuchsia;
-   padding: 100px;
+   padding: 40px;
 }
 button{
   margin: 1px;
   padding: 5px;
 }
-.tana{
-   display: inline-block;
-   width: 100px;
-   height: 100px;
-   border: 1px;
+.grid-container{
+   display: grid;
+   gap: 20px;
+   grid-template-columns: auto auto auto;
+   background-color: crimson;
+   padding: 10px;
+  
+   
 
 
 
 }
-.tanach{
-   display: inline-block;
-
-
+.grid-item{ 
+   background-color: blue;
+   border: 1px solid rgb(4, 17, 4);
+   padding: 60px;
+font-size: 50px;
+text-align: center;
 }
